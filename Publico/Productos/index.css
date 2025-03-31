@@ -1,0 +1,605 @@
+
+
+html, body { height: 100%; margin: 0; padding: 0;overflow: hidden;  /* Para evitar barras de desplazamiento */
+    background-image: url("https://www.bing.com/images/search?view=detailV2&ccid=YBBUMQJ4&id=C95A90A81BA5A71C2B7BE55B3362C3B05D0B0A6A&thid=OIP.YBBUMQJ4-BsVNnG0EZFPCwHaE7&mediaurl=https%3a%2f%2fimg.freepik.com%2ffotos-premium%2ffondo-escritorio-trabajo_115919-23105.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.601054310278f81b153671b411914f0b%3frik%3dagoLXbDDYjNb5Q%26pid%3dImgRaw%26r%3d0&exph=417&expw=626&q=fondo+trabajo&simid=608001880782281986&FORM=IRPRST&ck=DCE74463F4AEC1EDB4865EB172585620&selectedIndex=7&itb=0&ajaxhist=0&ajaxserp=0");}
+
+body { width: 100%;
+ 
+height: 100%;
+
+
+background-image: url();
+background-size:cover;
+background-position: center;
+overflow-y: scroll;
+}
+
+h1 {
+   
+
+   text-align: center;
+   font-family: "Jaro", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 2.5rem;
+
+background-image: url("https://th.bing.com/th?id=OIP.aUQjwl4qYlyhn_0HnzNNGgE8DF&w=316&h=197&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2");
+
+
+-webkit-text-fill-color: transparent;
+background-clip: text;
+background-position: center;
+
+background-size: cover;
+-webkit-text-stroke: 1px red ;
+}
+
+#menu-desplegable {
+   width: 12rem;
+   height: 100%;
+   left: -2rem;
+   background-color: red;
+border: solid 0.3rem ;
+
+position: absolute;
+top: 1.2rem;   
+
+
+}
+#soporte {
+display: flex;
+justify-content: end;
+flex-direction: column;
+position: relative;
+
+}
+.visible {
+   display: none;
+}
+
+.imagen { width: 3rem;}
+#barra {  
+width: 100%;
+   display: flex;
+   justify-content: space-between;
+  
+
+}
+#barra-navegacion {
+   width: 99%;
+ 
+   display: flex;
+justify-content: center;
+
+
+
+border: solid red;
+
+}
+
+
+#menu-navegacion {
+width: 4rem;
+display: flex;
+justify-content: center;
+flex-direction: column-reverse;
+
+
+}
+#menu {
+
+   position: relative;
+   top: 4rem;
+
+   display: flex;
+flex-direction: row;
+
+}
+
+#img-1{
+   width: 2rem;
+   height: 2rem;
+
+
+
+}
+#logo-menu{
+
+   width:2.8rem;
+   padding: 0.4rem;
+  
+}
+#menu-text { 
+    font-family: "Kanit", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+ color: aliceblue;
+font-size: 1.5rem;
+padding: 0;
+margin: 0;
+
+margin-left: 1rem;
+}
+#boton-menu { 
+  
+  
+background-color: transparent;
+
+display: flex;
+flex-direction: row;
+height: 2rem;
+justify-content: center;
+align-items: center;
+margin: 0;
+padding: 0;
+
+cursor: pointer;
+
+position: absolute;
+border-color: transparent;
+
+}
+#contenedor {
+   position: relative;
+   left: -6rem;
+   width: 80%;
+   display: flex;
+   justify-content: center;
+
+}
+#contenedor1 {
+
+   
+display: flex;
+justify-content: space-evenly;
+height: 2rem;
+padding:3rem;
+
+
+
+
+}
+
+
+
+#nombre{
+   text-align: center;
+   align-items: center;
+   border: groove;
+   border-radius: 3rem;
+
+
+}
+#numero{
+   text-align: center;
+   align-items: center;
+border: groove;
+border-radius: 3rem;
+
+
+}
+#cedula {
+   text-align: center;
+   align-items: center;
+border: groove;
+border-radius: 3rem;
+
+
+}
+#monto {
+   text-align: center;
+   align-items: center;
+
+   border: groove;
+   border-radius: 3rem;
+
+}
+p {font-size: 1rem;}
+
+#boton {
+  width: 10rem;
+  height: 2.5rem;
+    background-color: transparent;
+   border: inset rgb(0, 255, 34);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#tabladedatos {
+   width: 99%;
+
+  display: flex;
+  justify-content: space-evenly;
+
+}
+#tabla {
+   width: 100%;
+   height: 6rem;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   padding: 0;
+   
+    border-collapse: separate
+}
+
+#tabla1{ background-color: rgb(220, 220, 253);
+}
+
+
+#datos1{
+   width: 10%;
+   height: 100%;
+   
+   background-color: antiquewhite;
+  
+
+}
+td { border: 1px solid #ddd; padding: 8px; word-break: break-all; /* Permite que las palabras largas se dividan para ajustarse a la línea */ white-space: normal; /* Asegura que el texto se ajuste y no se mantenga en una sola línea */ font-size: 1rem; /* Ajusta el tamaño del texto */ max-width: 200px; /* Define un ancho máximo para la celda */ }
+
+
+
+
+
+
+
+
+.btn
+{
+   width: 10rem;
+   height: 20%;
+
+   display: flex;
+padding-top: 0.5rem;
+ margin-top: 1rem;
+ text-align: center;
+border: 0ch;
+
+border-radius: 3rem;
+background-color: transparent;
+cursor: pointer;
+}
+
+.btn:hover {
+  background-color: aquamarine;
+   
+}
+#Registro-img:hover {
+background-color: aliceblue;
+}
+
+.container-menu{
+   display: flex;
+justify-content: start;
+margin: 0%;
+padding: 0%;
+}
+#datos {
+
+   overflow-y: auto;
+}
+
+#config {
+   width: 6rem;
+   height: 2.9rem;
+   background: transparent;
+cursor: pointer;
+   border: transparent;
+
+display: flex;
+}
+
+
+
+
+
+
+
+
+
+.input-datos { 
+
+   border-radius: 3rem;
+margin-right: 2.6rem;
+margin-top: 0.4rem;
+
+}
+
+
+#contenedor1{
+   width: 97%;
+   height: 90%;
+  display: flex;
+flex-direction: column;
+align-items: center;
+   background-color: aliceblue;
+   padding: 0;
+   
+}
+#form {
+
+   width: 100%;
+   height: 30%;
+
+   display: flex;
+   justify-content: center;
+
+
+
+}
+
+#Mensaje { 
+   width: 10rem;
+   height: 2rem;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   border-radius: 3rem;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+padding: 0;
+padding-right: -4rem;
+}
+#Coste { 
+   width: 10rem;
+   height: 2rem;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   border-radius: 3rem;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+padding: 0;
+padding-right: -4rem;
+}
+   #opciones {
+      width: 15rem;
+      height: 2rem;
+    background-color: red;
+    border-radius: 3rem;
+    margin: 0;
+   
+   text-align: center;
+   }
+   
+
+   .div-container {
+width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    padding: 0;
+    margin: 0;
+     
+   }
+   .Titulos {width: 100%;
+   align-items: center;
+display: flex;
+
+justify-content: center;
+margin: 0;
+
+}
+
+
+
+
+#datos {
+   width: 100%;
+   height: 50%;
+margin: 0;
+  
+  padding: 0;
+  display: flex;
+ flex-direction: column;
+ overflow-y: auto;
+
+}
+
+#p-datos {
+   width: 100%;
+display: flex;
+justify-content: space-between;
+
+}
+
+#config-delete {
+   
+   width: 6rem;
+   height: 2.9rem;
+   background: transparent;
+cursor: pointer;
+   border: transparent;
+  
+padding-top: 0.8rem;
+}
+
+
+.input-datos {
+   border: 0;
+}
+#config-container{
+
+}
+
+#info { border: 0;
+background-color: transparent;
+padding-top: 0.8rem;
+
+}
+#info:hover {cursor: pointer;}
+
+#imagen {
+   width: 16rem;
+}
+
+.container-mas {
+border: solid  0.2rem
+
+;
+margin: 1rem
+
+;
+display: flex;
+justify-content: space-between;
+
+ }     
+ 
+ #p-Producto {
+font-size: 2rem;
+padding-left: 3.5rem;
+ }
+/* Formulario principal */
+#form {
+   width: 100%;
+   height: 40%;
+ /* Ancho máximo para evitar que se estire demasiado */
+   background: white; /* Fondo claro para contraste */
+
+  margin: 0.8rem;
+   border-radius: 8px; /* Bordes redondeados */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+   display: flex; /* Contenedor flexible */
+   flex-direction: column; /* Coloca los elementos uno debajo del otro */
+   gap: 1rem; /* Espaciado entre elementos internos */
+}
+
+/* Contenedor interno del formulario */
+#contenedor1 {
+   display: flex; /* Habilita flexbox */
+   flex-direction: column; /* Alinea en columna */
+   align-items: center; /* Centra elementos horizontalmente */
+   gap: 1rem; /* Espaciado entre elementos */
+}
+
+/* Estilo para los títulos dentro del formulario */
+.Titulos {
+   font-size: 1.2rem; /* Ajuste del tamaño del texto */
+   font-weight: bold; /* Texto en negrita */
+   color: #333; /* Color oscuro */
+   margin: 0; /* Elimina márgenes */
+   text-align: center; /* Centra texto */
+}
+
+/* Estilo para los campos de entrada del formulario */
+#form input {
+   width: 100%; /* Usar todo el ancho disponible */
+   padding: 0.5rem; /* Espaciado interno */
+   font-size: 1rem; /* Tamaño de texto legible */
+   border: 1px solid #ddd; /* Borde sutil */
+   border-radius: 5px; /* Bordes redondeados */
+   background-color: #f9f9f9; /* Fondo claro */
+   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra interna */
+}
+
+/* Botón del formulario */
+#boton {
+   width: 100%; /* Ocupa todo el ancho */
+   padding: 0.8rem; /* Espaciado interno */
+   background-color: #007BFF; /* Azul intenso */
+   color: white; /* Texto blanco */
+   border: none; /* Sin bordes */
+   border-radius: 5px; /* Bordes redondeados */
+   font-size: 1rem; /* Tamaño de texto legible */
+   cursor: pointer; /* Cambia el cursor al pasar */
+   transition: background-color 0.3s ease; /* Suaviza el cambio de color */
+}
+
+#boton:hover {
+   background-color: #0056b3; /* Azul más oscuro al pasar el cursor */
+}
+
+/* Contenedor de datos */
+#datos {
+   width: 90%; /* Ancho dinámico */
+   max-width: 800px; /* Máximo para pantallas grandes */
+   max-height: 50vh; /* Altura máxima con desplazamiento interno */
+   overflow-y: auto; /* Barra de desplazamiento vertical si es necesario */
+   background-color: white; /* Fondo claro */
+   padding: 1rem; /* Espaciado interno */
+   margin: 1rem auto; /* Espaciado vertical y centrado horizontal */
+   border-radius: 8px; /* Bordes redondeados */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+   display: flex; /* Usar flexbox */
+   flex-direction: column; /* Ordenar en columna */
+   gap: 1rem; /* Espaciado entre elementos internos */
+}
+
+/* Elementos individuales dentro de #datos */
+#p-datos {
+   display: flex; /* Habilita flexbox */
+   justify-content: space-between; /* Espaciado entre elementos */
+   align-items: center; /* Alinea verticalmente */
+   padding: 1rem; /* Espaciado interno */
+   background-color: #f9f9f9; /* Fondo sutilmente distinto */
+   border-radius: 5px; /* Bordes redondeados */
+   border: 1px solid #ddd; /* Borde sutil */
+}
+
+/* Campos de entrada en los datos */
+.input-datos {
+   width: 100%; /* Ajustar a todo el ancho */
+   padding: 0.5rem; /* Espaciado interno */
+   font-size: 1rem; /* Tamaño legible */
+   border: none; /* Sin bordes adicionales */
+   background-color: transparent; /* Fondo transparente */
+   text-align: left; /* Alineación del texto */
+   color: #333; /* Texto oscuro */
+}
+
+
+#config {
+   width: 4rem;
+   padding-top: 0.8rem;
+}
+
+#container-boton{
+   display: flex;
+justify-content: space-between;
+}
+
+#container-boton {
+   display: flex;
+   justify-content: end;
+   height: 2rem;
+}
+
+#foto {width: 40%;}
+
+#mensaje-btn {width: 90%;}
+@media (max-width: 650px) {
+
+
+   #Inventary { display: none;
+background-color: red;
+   }
+   #form {width: 100%;
+   height: 40%;
+
+}
+
+   #contenedor1 {
+      width: 100%;
+      height: 90%;
+  
+   }
+
+
+   #div-container {
+      width: 100%;
+      height: 90%;
+
+      background-color: red;
+    margin: 1rem;
+   }
+}
+
+/* Asegurarte de que en pantallas grandes el texto sea visible */
+@media (min-width: 769px) {
+ 
+  
+}
